@@ -1,0 +1,10 @@
+{
+  "sqldatabase": {
+    "user": "sa",
+    "password": "Sujal@104",
+    "server": "localhost",
+    "database": "evitalrx",
+    "port": 1433
+  },
+  "secret": "RJHRrdHIXnIujihrIIUlLiDheIhlaXli"
+}

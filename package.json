@@ -1,0 +1,27 @@
+{
+  "name": "delivery-api",
+  "version": "1.0.0",
+  "description": "Delivery API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sujal-mistry/delivery-api.git"
+  },
+  "author": "Sujal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sujal-mistry/delivery-api/issues"
+  },
+  "homepage": "https://github.com/sujal-mistry/delivery-api#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "config": "^3.3.12",
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mssql": "^11.0.1"
+  }
+}
