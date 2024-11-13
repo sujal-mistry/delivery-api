@@ -61,7 +61,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"booking_id\": \"4487928B-61BD-47E2-9D1A-A608BD726102\",\n    \"user_id\": 301\n}",
+					"raw": "{\n    \"booking_id\": \"E926C187-0D1B-4178-B045-CF75ADE1D4BB\",\n    \"user_id\": 301\n}",
 					"options": {
 						"raw": {
 							"language": "json"
