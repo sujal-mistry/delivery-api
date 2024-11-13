@@ -1,9 +1,9 @@
 {
   "sqldatabase": {
-    "user": "sa",
-    "password": "Sujal@104",
-    "server": "localhost",
-    "database": "evitalrx",
+    "user": "sujal",
+    "password": "Azure@104",
+    "server": "study-db1.database.windows.net",
+    "database": "EvitalRx",
     "port": 1433
   }
 }
