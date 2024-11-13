@@ -1,0 +1,76 @@
+{
+	"info": {
+		"_postman_id": "4fbb2c23-45f6-4688-9627-207bcd4520e4",
+		"name": "Delivery",
+		"description": "API for Delivery charges calculate, book delivery and cancel delivery.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Calculate Charges",
+			"id": "ccacd4b4-a703-47e4-ab00-1a8119a7301b",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"vehicle_type\": 1,\n    \"distance\": 10\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{URL}}/calculate-charges"
+			},
+			"response": []
+		},
+		{
+			"name": "Book Delivery",
+			"id": "ffd5ec48-a986-4821-b753-14d86b7792d5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"pickup_location\": \"A-11, Samarpan, K K nagar road, Ghatlodia - 380061\",\n    \"drop_location\": \"E-757, Ganesh glory-11, jagatpur, sg\",\n    \"distance\": 10,\n    \"delivery_date\": \"2024-11-12 10:30:00\",\n    \"delivery_type\": 1,\n    \"paymen_type\": 2, //1. cod, 2. credit, 3.debit\n    \"payment_details\": \"Credit Card\",\n    \"amount\": 50.0,\n    \"order_id\": \"ORD123456\",\n    \"delivery_details\": \"Deliver a package.\",\n    \"user_id\": 301,\n    \"vehicle_type\": 2 //1. 2-wheeler without gear 2. 2-wheeler with gear 3. three wheeler\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{URL}}/book-delivery"
+			},
+			"response": []
+		},
+		{
+			"name": "Cancel Delivery",
+			"id": "95c60278-1668-4b67-9450-13dab7a3a7a8",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"booking_id\": \"4487928B-61BD-47E2-9D1A-A608BD726102\",\n    \"user_id\": 301\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "{{URL}}/cancel-delivery"
+			},
+			"response": []
+		}
+	]
+}
