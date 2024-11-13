@@ -15,7 +15,7 @@ Built with Node.js, JavaScript, and Express, this project integrates SQL for dat
 - **Node.js** for building the backend server.
 - **JavaScript** as the primary programming language.
 - **Express** as the web framework for handling HTTP requests.
-- **SQL Database** for storing delivery-related data.
+- **Azure SQL Database** for storing delivery-related data.
 - **Postman** for API testing and documentation.
 
 ## Getting Started
@@ -25,7 +25,7 @@ Built with Node.js, JavaScript, and Express, this project integrates SQL for dat
 Make sure you have the following installed:
 
 - [Node.js](https://nodejs.org/) (version 14 or higher)
-- [SQL Server](https://www.microsoft.com/en-in/sql-server/sql-server-downloads)
+- [Azure SQL Database](https://azure.microsoft.com/en-us/services/sql-database/)
 
 ### Installation
 
