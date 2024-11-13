@@ -3,7 +3,7 @@
     "user": "sujal",
     "password": "Azure@104",
     "server": "study-db1.database.windows.net",
-    "database": "EvitalRx",
+    "database": "StudyDb",
     "port": 1433
   }
 }
