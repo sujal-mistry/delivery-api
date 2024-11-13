@@ -39,7 +39,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n    \"pickup_location\": \"A-11, Samarpan, K K nagar road, Ghatlodia - 380061\",\n    \"drop_location\": \"E-757, Ganesh glory-11, jagatpur, sg\",\n    \"distance\": 10,\n    \"delivery_date\": \"2024-11-12 10:30:00\",\n    \"delivery_type\": 1,\n    \"paymen_type\": 2, //1. cod, 2. credit, 3.debit\n    \"payment_details\": \"Credit Card\",\n    \"amount\": 50.0,\n    \"order_id\": \"ORD123456\",\n    \"delivery_details\": \"Deliver a package.\",\n    \"user_id\": 301,\n    \"vehicle_type\": 2 //1. 2-wheeler without gear 2. 2-wheeler with gear 3. three wheeler\n}",
+					"raw": "{\n    \"pickup_location\": \"A-11, Samarpan, K K nagar road, Ghatlodia - 380061\",\n    \"drop_location\": \"E-757, Ganesh glory-11, jagatpur, sg\",\n    \"distance\": 10,\n    \"delivery_date\": \"2024-11-12 10:30:00\",\n    \"delivery_type\": 1,\n    \"payment_type\": 2, //1. cod, 2. credit, 3.debit\n    \"payment_details\": \"Credit Card\",\n    \"amount\": 50.0,\n    \"order_id\": \"ORD123456\",\n    \"delivery_details\": \"Deliver a package.\",\n    \"user_id\": 301,\n    \"vehicle_type\": 2 //1. 2-wheeler without gear 2. 2-wheeler with gear 3. three wheeler\n}",
 					"options": {
 						"raw": {
 							"language": "json"
